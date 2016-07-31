@@ -1,0 +1,10 @@
+extends layout
+
+block content
+
+
+  input(type="image", value="*",onClick="centermap()", src="img/location.png", id="center")
+  div(id="map")
+
+   script(src="js/js.js")
+   script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAW3JnAkxa949CeXgum563tsz_6EahZJZ8&signed_in=true&callback=initMap')

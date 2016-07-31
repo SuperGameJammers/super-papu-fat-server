@@ -1,0 +1,37 @@
+.camera-banner-container {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  z-index: 999;
+  background-color: #FFF;
+  margin: 5px 50px;
+  border: solid #000 0.45em;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  align-items: center;
+  flex: 1; }
+  .camera-banner-container .content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    align-items: flex-start;
+    flex: 1; }
+    .camera-banner-container .content-container .title {
+      margin: 10px 0 0 20px;
+      font-size: 55px; }
+    .camera-banner-container .content-container .text {
+      margin: 20px 10px 5px 20px;
+      color: #BDBDBD;
+      font-size: 2vh; }
+  .camera-banner-container .icon-container {
+    background-image: url("../images/camoff.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    width: 250px;
+    height: 250px; }

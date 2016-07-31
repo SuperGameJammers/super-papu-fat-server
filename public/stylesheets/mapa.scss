@@ -1,0 +1,59 @@
+#mainContainer{
+  position: relative;
+  height: 82%;
+}
+
+#mapContainer {
+  height: 100%;
+}
+
+#map {
+  //height:1400px;
+  height: 100%;
+}
+
+#center{
+  background-image: url("../img/location.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+
+	width: 150px;
+  height: 150px;
+}
+
+#resetLocation{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 999;
+  width: 135px;
+  height: 135px;
+}
+
+#avatarImage {
+  position: absolute;
+
+  left: 3%;
+  top: 5%;
+
+  width: 220px;
+  height: 220px;
+  //background: red;
+  background-image: url("../img/01-healthy.png");
+  background-size: 220px;
+  background-repeat: no-repeat;
+
+  z-index: 998;
+}
+
+#progressBar {
+  position: absolute;
+  left: 12%;
+  top: 6%;
+  width: 2.5%;
+  height: 65%;
+  background: #efd97b;
+  z-index: 998;
+
+  border: 6px solid black;
+}
